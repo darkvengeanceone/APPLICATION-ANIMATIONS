@@ -1,0 +1,199 @@
+body {
+    background: linear-gradient(to right, rgb(138, 112, 161), rgb(62, 177, 192));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+.box h2{
+    overflow: hidden;
+    transform: scale(0);
+}
+
+.box.expanded {
+    width: 75vw;
+    height: 80vh;
+    border-radius: 0%;
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  black;
+    color: white;
+}
+
+
+.box.expanded h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 3rem;
+}
+
+
+.box.expanded h2{
+    transform: scale(1);
+    z-index: 999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    
+}
+
+.box1{
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    top: 340px;
+}
+
+
+.box1:hover {
+    transform: scale(1.2);
+}
+
+.box1 h2{
+    overflow: hidden;
+    transform: scale(0);
+}
+
+
+.box1.expanded {
+    width: 75vw;
+    height: 80vh;
+    border-radius: 0%;
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  black;
+    color: white;
+}
+
+.box1.expanded h1 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 3rem;
+}
+
+.box1.expanded h2{
+    transform: scale(1);
+    z-index: 999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    
+}
+
+.box2 {
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    top: 520px;
+}
+
+.box2:hover {
+    transform: scale(1.2);
+}
+
+.box2 h2{
+    overflow: hidden;
+    transform: scale(0);
+}
+
+.box2.expanded {
+    width: 75vw;
+    height: 80vh;
+    border-radius: 0%;
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  black;
+    color: white;
+}
+
+.box2.expanded h1 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 3rem;
+}
+
+
+.box1.expanded h2{
+    transform: scale(1);
+    z-index: 999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    
+}
