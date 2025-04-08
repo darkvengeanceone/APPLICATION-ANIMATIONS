@@ -186,7 +186,7 @@ body {
 }
 
 
-.box1.expanded h2{
+.box2.expanded h2{
     transform: scale(1);
     z-index: 999;
     position: relative;
